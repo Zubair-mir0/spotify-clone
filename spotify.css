@@ -1,0 +1,579 @@
+body{
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    margin: 0;
+    padding: 8px;
+font-size: 10px;
+font-family: var(--encore-body-font-stack, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif)), sans-serif;
+   }
+.body{
+    height: 100%;
+    display: flex;
+    gap: 8px;
+}
+.logo{
+ height: 50px;
+    background-size:cover ;
+    border-radius: 50px;
+    background-image: none;
+
+}
+
+.side-bar{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    height: 520px;
+
+}
+ .top-div{
+    /* border: 2px solid white; */
+    
+    width: 250px;
+    border-radius: 10px;
+    
+    background-color:#121212  ;
+    padding: 8px 12px;
+    height: 150px;
+    margin-top: 8px;
+
+ }
+ .first{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 40px;
+font-size: 10px;
+/* border: 2px solid red;    */
+
+
+ }
+ .first h2{
+    font-weight: 700;
+ }
+ .second{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 10px;
+    
+/* border: 2px solid red; */
+ }
+ .contain{
+    display: flex;
+    flex-direction: column;
+    gap: 10px   ;
+    padding-left:10px;
+    padding-right: 10px;
+ }
+
+ .bottom-div{
+    border-radius: 10px;
+    width: 250px;
+/* border: 2px solid red; */
+    background-color:#121212  ;
+    padding: 8px 12px;
+    height: 340px;
+    overflow: hidden;
+ }
+ .library{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    /* border: 2px solid red; */
+    justify-content: flex-start;
+    gap: 40px;
+    /* position:fixed; */
+ }
+ .ico{
+/* border: 2px solid red; */
+width: 90px;
+ }
+ .scroll{
+    height: 50px;
+    overflow-y: scroll;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+gap: 10px;
+ }
+ .scroll-1{
+    background-color:#242424 ;
+    border-radius: 20px;
+    padding: 10px;
+
+ }
+ .scroll::-webkit-scrollbar{
+   background-color: none;
+background: none;
+width: 12px;
+ }
+
+ .scroll:hover::-webkit-scrollbar-thumb{
+   display: block;
+ }
+ .scroll::-webkit-scrollbar-thumb{
+   background-color: #878787;
+   opacity: 0.5;
+   display: none;
+   height: 30px;
+   /* width: 5px; */
+
+}
+
+
+ .playlist{
+   background-color: #fff;
+   color:black;
+   border-radius: 20px;
+   border: none;
+   padding: 10px;
+   font-weight: bold;
+ }
+ .scroll-2{
+    background-color:#242424 ;
+    border-radius: 20px;
+    padding: 10px;
+
+ }
+ .footer{
+   /* border: 2px solid green; */
+   display: flex;
+   align-items: flex-start;
+   justify-content: center;
+   height: 180px;
+   flex-direction: column;
+ }
+ .foot-1 , .foot-2 {
+   /* border: 2px solid red; */
+   font-size: 11px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   /* height: 50px; */
+   width: 200px;
+   justify-content: flex-start;
+   display:flex;
+   
+   justify-content: space-evenly  ;
+   align-items: center;
+ }
+ .footer a{
+   text-decoration: none;
+   /* color: white; */
+   color: #6a6a6a ;
+ }
+ .foot-3{
+   font-size: 11px;
+   padding: 6px;
+   height: 50px;
+   width: 190px;
+   display:flex;
+   justify-content: space-between  ;
+   /* justify-content:; */
+   /* border: 2px solid red; */
+   flex-direction: column;
+ }
+ .language button{
+   /* border-radius: 20px; */
+background:none;
+color: white;
+border: none;
+ }
+
+ .language{
+   
+   display: flex;
+   justify-content: center;
+   border: #878787 1px solid;
+   padding: 4px;
+   width: 90px;
+   border-radius:20px ;
+   background-color: #121212;
+ }
+ .lang{
+   height: 50px;
+   /* border: 2px solid red; */
+
+ }
+ .language:hover{
+border: white 1px solid;
+cursor: pointer; 
+}
+.login-bar {
+   display: flex;
+   justify-content: space-between;
+   width: 960px;
+   border-radius: 10px;
+/* border: 2px solid red; */
+height: 60px;
+align-items: center;
+padding-top: 2px;
+padding-bottom: 2px;
+background-color:#121212;
+margin-top: 8px;
+
+}
+.signup{
+   /* border: 2px solid blue; */
+   width: 200px;
+   display: flex;
+   justify-content: space-evenly;
+   padding: 10px;
+}
+.signup button{
+   background: none  ;
+   color: #6a6a6a ;
+width: 100px;
+
+   border: none;
+}
+#signup-btn:hover{
+   color: white;
+   font-size: 16.5px;
+}
+#login-btn{
+   background-color: white;
+   color: black;
+   padding: 10px;
+   border-radius: 30px;
+   width: 100px;
+   font-weight: bold;
+   font-size:medium;
+   padding: 13px;
+}
+#login-btn:hover{
+   padding: 14px;
+}
+#signup-btn{
+   font-weight: bold;
+   font-size:medium;
+   padding: 13px;
+
+}
+.arrows{
+   padding: 20px;
+}
+.right-side{
+   margin-top:8px;
+   height: 520px;
+   background-color: #121212;
+   border-radius: 10px;
+}
+.upper-right{
+   /* border: 2px solid red; */
+   background: rgb(41,41,44);
+   background: linear-gradient(180deg, rgba(41,41,44,1) 0%, rgba(19,19,20,1) 46%);
+
+   height: 300px;
+align-items: center; 
+   display: flex;
+}
+.container{
+   height: 445px;
+   overflow-y: scroll;  
+   /* border: 2px solid red; */
+   border-radius: 10px;
+   width: 970px;
+
+}
+
+.container::-webkit-scrollbar{
+   background-color: none;
+background: none;
+width: 12px;
+ }
+ 
+ .container:hover::-webkit-scrollbar-thumb{
+   display: block;
+ }
+ .container::-webkit-scrollbar-thumb{
+   background-color: #878787;
+   opacity: 0.5;
+   display: none;
+   height: 30px;
+   width: 5px;
+
+}
+ body::-webkit-scrollbar-thumb{
+   background-color: #878787;
+   opacity: 0.5;  
+   /* display: none; */
+   height: 50px;
+   /* width: 5px; */
+   display: block;
+
+}
+body::-webkit-scrollbar-button{
+   background-color: #121212;
+   color: #6a6a6a;
+}
+   body::-webkit-scrollbar{
+      /* background-color: none; */
+   /* background: none; */
+   width: 15px;
+   height: 15px;
+}
+.heading{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.heading h1{
+   font-weight: bolder;
+
+}
+.heading h2{
+   font-weight: bolder;
+}
+.heading h3{
+   font-weight: bolder;
+}
+.heading h2:hover{
+   cursor: pointer;
+   text-decoration: underline;
+}
+.heading h3:hover{
+   cursor: pointer;
+   text-decoration: underline;
+}
+.heading h1:hover{
+   cursor: pointer;
+text-decoration: underline;
+}
+.name h1{
+   font-weight: bolder;
+}
+.image img{
+   height: 145px;
+   width: 150px;
+object-fit: cover;
+   border-radius: 220px;
+   
+}
+.image{
+   display: flex;
+   align-items: flex-end;
+/* border: 2px solid red; */
+width: 200px;
+justify-content: center;
+}
+.name a{
+   text-decoration: none;
+   color:#6a6a6a ;
+   font-size: small;
+}
+.name{
+   display: flex;
+   flex-direction: column;
+   /* border: 2px solid green; */
+   width: 160px;
+   height: 55px;
+   justify-content: space-between;
+}
+.artists{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   /* border: 2px solid white; */
+   width: 350px;
+   height: 230px;
+   justify-content: space-around;
+}
+.name h2{
+   font-size: small;
+}
+.mid-right{
+display: flex;
+   height: 220px;
+   justify-content: space-between;
+   padding: 10px;
+}
+.albums{
+/* border: 2px solid red; */
+width: 180px;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.albums img{
+   height: 160px;
+   border-radius: 10px;
+   object-fit: contain;
+
+}
+.arrows a{
+   text-decoration: none;
+   color:#6a6a6a ;
+background-color: black;
+border-radius:100px;
+height: 30px;
+width: 30px;
+font-size: 20px;
+/* border: 2px solid blue; */
+display: flex;
+justify-content: center;
+align-items: center;
+   padding: 2px;
+   font-weight:lighter;
+
+}
+.fa-solid {
+   text-decoration: none;
+   color:#6a6a6a ;
+/* background-color: black; */
+border-radius:100px;
+height: 18px;
+width: 18px;
+font-size: 20px;
+/* border: 2px solid blue; */
+display: flex;
+/* justify-content: center; */
+/* align-items: center; */
+   padding: 2px;
+   font-weight:lighter;
+}
+.arrows{ display: flex;
+   justify-content: space-between;
+   width: 70px;
+   align-items: center;
+   /* border: 2px solid red; */
+   height: 40px;
+}
+.arrows-style {
+   background-color: black;
+
+/* border: 2px solid green; */
+   display: flex;
+   width:30px;
+   height: 30px;
+   border-radius: 100px;
+   justify-content:center;
+   align-items: center;
+}
+
+.ending{
+   /* border: 2px solid blue; */
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 60px;
+   width:1240px;
+   background: rgb(154,63,251);
+   background: radial-gradient(circle, rgba(154,63,251,1) 35%, rgba(159,63,249,1) 54%, rgba(252,70,205,1) 100%, rgba(252,70,205,1) 100%);
+   font-family: var(--encore-body-font-stack, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif)), sans-serif;
+}
+
+.end-ad{
+   padding: 5px;
+   margin-top: 12px;
+   /* border: 2px solid red; */
+   height: 50px;
+   /* align-items: center; */
+   display: flex;
+   
+   flex-direction: column;
+   justify-content: center;
+}
+.Preview{
+   /* border: 2px solid green; */
+   font-size: 14px;
+ margin: 2px;  
+}
+.signn{
+   font-size: 12px;
+/* border: 2px solid red;margin: 0; */
+}
+.button{
+   /* border: 2px solid green; */
+width: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.btn-sign{
+   border: none;
+   height:50px ;
+   width: 150px;
+   border-radius:30px ;
+   font-size: 16px;
+   font-weight: bold;
+   padding: 0;
+}
+.about-spotify{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+   height:300px
+}
+.div-1{
+display: flex;
+flex-direction: column;
+
+   height: 200px;
+width: 150px;
+}
+.div-1 h2{
+   color: white;
+font-size: 16px;
+}
+.div-1 a{
+   color:#878787;
+   font-size: 14px;
+   text-decoration: none;
+}
+.div-2{
+   height: 300px;
+   display: flex;
+   align-items: flex-start;
+}
+.inner-div{
+   height: 150px;
+   display: flex;
+   align-items: center;
+}
+.insta-logo{
+   height: 40px;
+/* border: 2px solid white; */
+border-radius: 50px;
+background-color:#242424;
+}
+.insta-logo1{
+   width: 42px;
+   height: 42px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50px;
+   overflow: hidden;
+   background-color: #121212;
+}
+ .logo-inst1{
+   width: 100% !important;
+   height: 100% !important;
+   object-fit: cover;
+}
+.logo-inst{
+   
+   border-radius: 50px;
+   height: 40px;
+   object-fit: cover;
+}
+.insta-logo2{
+height:40px;
+}
+.logo-inst2{
+height: 38px;
+border-radius: 50px;
+}
+.liscence{
+   display: flex;
+   align-items: center  ;
+   width: 100px;
+   justify-content: space-between;
+}
